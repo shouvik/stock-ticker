@@ -16,9 +16,68 @@
 
 .App-intro {
   font-size: large;
+  display: flex;
+  justify-content: center;
+}
+
+.App-ticker-table {
+  background: linear-gradient(to right, #275396, #48c5d0);
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  width: 80%;
+}
+
+.App-ticker-table--header {
+  background-color: rgba(255,255,255,0.3);
+  width: 100%;
+}
+
+.App-ticker-table--header > thead > tr > th {
+  width: 1%;
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.App-ticker-table--header > div {
+  width: 1%;
+  text-align: left;
+}
+
+.App-ticker-table--body {
+  width: 100%;
+  text-align: left;
+}
+
+.App-ticker-table--body > tbody > tr > td {
+  padding: 10px 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  width: 1%;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+.App-ticker-table--cell-white {
+  background: linear-gradient(to right, #DED7D7, #E9E9E9);
+}
+.App-ticker-table--cell-red {
+  background: linear-gradient(to right, #e61313, #9c0000);
+}
+.App-ticker-table--cell-green {
+  background: linear-gradient(to right, #009F03, #79FF87);
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* background: linear-gradient(to right, #e61313, #9c0000); */
