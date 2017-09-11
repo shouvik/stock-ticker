@@ -2,7 +2,7 @@
   "name": "stock-ticker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shouvik.github.io/stock-ticker",
+  "homepage": "https://shouvik.github.io/stock-ticker/index.html",
   "dependencies": {
     "ramda": "^0.24.1",
     "react": "^15.6.1",
